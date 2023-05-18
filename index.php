@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="meucodigo.css">
+    <link rel="stylesheet" href="meucodigo.css">
     <title>Página1</title>
 </head>
 
 <body>
+    <a href="pedido.php" class="btn btn-primary">SORVETES</a>
     <?php
     include("menu.php");
     ?>
@@ -42,6 +43,50 @@
     <br>
     <h1>OS MAIS PEDIDOS</h1>
     <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 1º Linha -->
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/subs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">......</p>
+                    <a href="#" class="btn btn-success">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/subs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">;.....</p>
+                    <a href="#" class="btn btn-success">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/subs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">....</p>
+                    <a href="#" class="btn btn-success">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/subs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">....</p>
+                    <a href="#" class="btn btn-success">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+    <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 2º Linha -->
         <div class="col">
             <div class="card" style="width: 18rem;">
                 <img src="img/subs.png" class="card-img-top" alt="...">
