@@ -40,6 +40,7 @@
     </div>
     <br>
     <br>
+    <div class="container">
     <h1>OS MAIS PEDIDOS</h1>
     <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 1º Linha -->
         <div class="col">
@@ -48,41 +49,16 @@
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">......</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
+                    <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="img/subs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">;.....</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="img/subs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">....</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="img/subs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">....</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
-                </div>
-            </div>
-        </div>
+        
+        
+        
     </div>
+    </div>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
