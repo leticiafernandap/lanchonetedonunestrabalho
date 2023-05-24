@@ -4,6 +4,8 @@
     }
 
     if(!isset($_SESSION['email'])){
-        die ("Você não pode acessar porque não está logado");
+        die ("Você não pode acessar porque não está logado  <p><a href=\login.php\>Entrar</a></p>");
     }
+   
+    
 ?>
