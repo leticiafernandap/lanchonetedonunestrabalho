@@ -14,9 +14,6 @@
     <?php
     include("menu.php");
     ?>
-    <br>
-    <br>
-    <br>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -38,8 +35,10 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+<<<<<<< HEAD
     <br>
     <br>
+    <div class="container">
     <h1>OS MAIS PEDIDOS</h1>
     <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 1º Linha -->
         <div class="col">
@@ -48,41 +47,66 @@
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">......</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
+                    <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+=======
+    <div class="container">
+        <h1>OS MAIS PEDIDOS</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 1º Linha -->
+            <div class="col">
+
+                <h1>1º</h1>
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
+                    <div class="card-body">
+                        <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
+                        <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h1>2º</h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="sub/_Carne-Supreme_.webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">CARNE SUPREME</h5>
+                        <p class="card-text">Suculentas tiras de carne, molho supreme, cebola crispy, queijo e vegetais</p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h1>3º</h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="sub/Sub_Carne_Seca.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CARNE SECA COM CREAM CHEESE</h5>
+                        <p class="card-text">Carne Seca com Cream Cheese, muçarela ralada e vegetais</p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h1>4º</h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="sub/Sub_Quebrada_.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SUB DA QUEBRADA</h5>
+                        <p class="card-text">Steak de churrasco, queijo cheddar fatiado, bacon, pepperoni, alface e maionese temperada</p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                    </div>
+>>>>>>> zere
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="img/subs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">;.....</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="img/subs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">....</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="img/subs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">....</p>
-                    <a href="#" class="btn btn-success">COMPRAR</a>
-                </div>
-            </div>
-        </div>
+        
+        
+        
     </div>
+    </div>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
