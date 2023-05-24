@@ -17,6 +17,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="cardapio.php">CARDÁPIO</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login1.php">FAÇA SEU LOGIN</a>
+                    </li>
             </div>
         </div>
     </div>
