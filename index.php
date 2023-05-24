@@ -44,11 +44,11 @@
 
 
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Frangoempanado.webp" class="card-img-top" alt="...">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
                     <div class="card-body">
-                        <h5 class="card-title">FRANGO EMPANADO</h5>
-                        <p class="card-text">Receita especial de frango empanado, queijo e vegetais <br> <br> </p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
+                        <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CARNE SUPREME</h5>
                         <p class="card-text">Suculentas tiras de carne, molho supreme, cebola crispy, queijo e vegetais</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CARNE SECA COM CREAM CHEESE</h5>
                         <p class="card-text">Carne Seca com Cream Cheese, muçarela ralada e vegetais</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                     <div class="card-body">
                         <h5 class="card-title">SUB DA QUEBRADA</h5>
                         <p class="card-text">Steak de churrasco, queijo cheddar fatiado, bacon, pepperoni, alface e maionese temperada</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>

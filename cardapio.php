@@ -40,11 +40,11 @@
         <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 1º Linha -->
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Frangoempanado.webp" class="card-img-top" alt="...">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
                     <div class="card-body">
-                        <h5 class="card-title">FRANGO EMPANADO</h5>
-                        <p class="card-text">Receita especial de frango empanado, queijo e vegetais <br> <br> </p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
+                        <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CARNE SUPREME</h5>
                         <p class="card-text">Suculentas tiras de carne, molho supreme, cebola crispy, queijo e vegetais</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CARNE SECA COM CREAM CHEESE</h5>
                         <p class="card-text">Carne Seca com Cream Cheese, muçarela ralada e vegetais</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     <div class="card-body">
                         <h5 class="card-title">SUB DA QUEBRADA</h5>
                         <p class="card-text">Steak de churrasco, queijo cheddar fatiado, bacon, pepperoni, alface e maionese temperada</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -82,12 +82,13 @@
         <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 2º Linha -->
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
+                    <img src="sub/Frangoempanado.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
-                        <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <h5 class="card-title">FRANGO EMPANADO</h5>
+                        <p class="card-text">Receita especial de frango empanado, queijo e vegetais <br> <br> </p>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
+
                 </div>
             </div>
             <div class="col">
@@ -96,7 +97,7 @@
                     <div class="card-body">
                         <h5 class="card-title">STEAK CHEDDAR CREMOSO</h5>
                         <p class="card-text">Steak de churrasco com cheddar cremoso e vegetais</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +107,7 @@
                     <div class="card-body">
                         <h5 class="card-title">TERIYAKI</h5>
                         <p class="card-text">Peito de frango em tiras com com molho teriyaki, queijo e vegetais </p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +117,7 @@
                     <div class="card-body">
                         <h5 class="card-title">VEGETARIANO</h5>
                         <p class="card-text">Combine seus vegetais favoritos e queijo </p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -129,7 +130,7 @@
                     <div class="card-body">
                         <h5 class="card-title">COOKIES GOTAS DE CHOCOLATE</h5>
                         <p class="card-text">Delicioso cookie tradicional com gotas de chocolate </p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +140,7 @@
                     <div class="card-body">
                         <h5 class="card-title">COOKIES CHOCOLATE COM GOTAS DE CHOCOLATE</h5>
                         <p class="card-text">Delicioso cookie de chocolate com gotas de chocolate</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +150,7 @@
                     <div class="card-body">
                         <h5 class="card-title">COOKIE DIAMANTE NEGRO</h5>
                         <p class="card-text">Cookie feito com recheio Diamante Negro</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -159,7 +160,7 @@
                     <div class="card-body">
                         <h5 class="card-title">LA MUS PRESTÍGIO</h5>
                         <p class="card-text">Mousse de coco com cobertura de chocolate</p>
-                        <a href="#" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
                     </div>
                 </div>
             </div>
