@@ -25,7 +25,6 @@
     <title>Lista de Pedidos</title>
 </head>
 <body>
-    
     <div class="container">
         <h1>Lista de Pedidos - Buteco do Nunes</h1>
         <table class="table table-striped">
