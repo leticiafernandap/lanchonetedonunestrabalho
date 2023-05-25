@@ -1,7 +1,7 @@
 <?php
     include ("conexao.php");
 
-    //include ("protect.php");
+    include ("protect.php");
 
     $consultar_banco = "SELECT * FROM lanchonetesubway_nunes";
 

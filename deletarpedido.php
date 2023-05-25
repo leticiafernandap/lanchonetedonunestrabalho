@@ -1,6 +1,8 @@
 <?php
 
     include("conexao.php"); //arquivo php referente ao banco de dados
+
+    
    if(isset($_GET['codigo_pedido'])){
     $id_pedido = $_GET['codigo_pedido'];
     $sql_consultar = "SELECT * FROM lanchonetesubway_nunes WHERE id_pedido = '$id_pedido'";
