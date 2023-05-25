@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="cub.css">
     <title>Login</title>
 </head>
-
 <body>
     <?php
     include("menu.php");
