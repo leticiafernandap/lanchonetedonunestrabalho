@@ -15,7 +15,7 @@
     ?>
     <div class="login">
     <h1>Faça seu Cadastro</h1>
-    <form action="pagina.php" method="get">
+    <form action="listadepedidos.php" method="get">
         <input type="text" name="Nome" placeholder="Nome" required maxlength="15"><br /><br />
         <input type="text" name="Sobrenome" placeholder="Sobrenome" required maxlength="25"><br /><br />
         <input type="text" name="Idade" placeholder="Idade" pattern="[0-9]{2}" required min="18" max="80" maxlength="15"><br /><br />
