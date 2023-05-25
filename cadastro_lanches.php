@@ -1,87 +1,68 @@
 
+<?php
+         include('conexao.php');
+
+         include('protect.php');
+     
+         if(isset($_POST['bt_nome'])){
+             /*----------------------------------*/
+             $nome = $_POST['bt_nome'];
+             $ingredientes = $_POST['bt_ingredientes'];
+             $quantidade = $_POST['bt_quantidade'];
+             $valor = $_POST['bt_valor'];
+             /*----------------------------------*/
+             $mysqli -> query("INSERT INTO lanches (nome, ingredientes,  quantidade , valor) values('$nome', '$ingredientes', '$quantidade', '$valor')") or
+             die ($mysqli->error);
+     
+             if(isset($_POST['nome']) || isset($_POST['endereco'])) {
+     
+             if(($_POST['nome']) == 1){
+                 echo("Parabéns você está logado");
+     
+             if(($_POST['endereco']) == 1){
+                 echo("Parabéns você está logado");
+            }
+             }    
+             }
+         }
+    ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <title>Página de Pedido</title>
-    </head>
-
-    <body>
-        <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.php"><img src="img/logo1.png" alt="" width="240"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/logo1.png" alt="" width="170"></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="cub.css">
+    <title>Cadastro Lanches - Buteco</title>
+</head>
+<body>
+<div class="container">
+            <h1>Cadastro de Lanches - Buteco do Nunes</h1>
+                    <form action="" method="post">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nome do Lanche:</label>
+                        <input name="bt_nome" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Coloque o nome do lanche</div>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Ingredientes</label>
+                        <input name="bt_ingredientes" type="text" class="form-control">
                     </div>
-                </div>
-            </div>
-        </nav>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="container">
-            <h1>Tela de Cadastro de Lanches</h1>
-            <form action="" method="post">
-                <div class="mb-3">
-                    <label class="form-label" for="">Nome:</label>
-                    <input class="form-control"  type="text" name="bt_nome">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="">Ingredientes:</label>
-                    <input class="form-control"  type="text" name="bt_endereco">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="">Preço:</label>
-                    <input class="form-control" type="text" name="bt_telefone">
-                </div>                
-                
-                <div class="mb-3">
-                    <input class="btn btn-success" type="submit" value="Cadastrar">
-                    <a  class="btn btn-danger" href="index.php">Cancelar</a>
-                                
+                    <div class="mb-3">
+                        <label for="" class="form-label">Quantidade de lanches disponíveis</label>
+                        <input name="bt_quantidade" type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Valor do Lanche:</label>
+                        <input name="bt_valor" type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <input class="btn btn-success" type="submit" value="Cadastrar Lanche">
+                    <a class="btn btn-danger" href="index.php">Cancelar</a>
+                    <a class="btn btn-primary" href="lista_lanches.php">Lanches</a>
+                    </form>
                 </div>
             </form>
         </div>
-
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
+</body>
 </html>

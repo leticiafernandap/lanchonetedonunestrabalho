@@ -2,7 +2,7 @@
 
     include("conexao.php"); //arquivo php referente ao banco de dados
 
-    
+
    if(isset($_GET['codigo_pedido'])){
     $id_pedido = $_GET['codigo_pedido'];
     $sql_consultar = "SELECT * FROM lanchonetesubway_nunes WHERE id_pedido = '$id_pedido'";
@@ -40,7 +40,16 @@
         <h1>Tela de exclusão -  Lanchonete do nunes</h1>
         <h1>ID do pedido: <?php echo $pedido['id_pedido']?></h1>
         <p>Nome: <?php echo $pedido['nome']?></p>
+        <p>Endereço: <?php echo $pedido['endereco']?></p>
+        <p>Telefone: <?php echo $pedido['telefone']?></p>
+        <p>Pedido: <?php echo $pedido['pedido']?></p>   
     </div>
+
+    <form action="" method="post">
+                <input name="btn_deletar" class="btn btn-danger" type="submit" value="DELETAR">
+                <a class="btn btn-warning" href="lista_pedidos.php">Voltar</a>
+            </form>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
