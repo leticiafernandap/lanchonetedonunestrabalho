@@ -71,7 +71,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         <form action="listadepedidos.php" method="get">
             <input type="text" name="Email" placeholder="Email" required maxlength="25"><br /><br />
             <input type="password" name="senha" placeholder="Senha" required maxlength="20"> <br /><br />
-            <input class="btn btn-success"  type="submit" value="entrar">
+            <input class="btn btn-success"   href= "listadepedidos.php" type="submit" value="entrar">
             <input class="btn btn-danger" type="reset" value="limpar">
             <a class="btn btn-warning" href="cadastro.php" role="button">Cadastre-se</a>
         </form>

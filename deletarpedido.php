@@ -47,7 +47,7 @@
 
     <form action="" method="post">
                 <input name="btn_deletar" class="btn btn-danger" type="submit" value="DELETAR">
-                <a class="btn btn-warning" href="lista_pedidos.php">Voltar</a>
+                <a class="btn btn-warning" href="listadepedidos.php">Voltar</a>
             </form>
 
 
