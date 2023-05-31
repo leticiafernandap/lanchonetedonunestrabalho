@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="meucodigo.css">
+    <link rel="stylesheet" href=".css">
     <title>Cardapio</title>
 </head>
 
@@ -40,7 +40,7 @@
         <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 1º Linha -->
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="285">
                     <div class="card-body">
                         <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
                         <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
@@ -82,7 +82,7 @@
         <div class="row row-cols-1 row-cols-md-4 g-4"> <!-- 2º Linha -->
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Frangoempanado.webp" class="card-img-top" alt="...">
+                <img src="sub/Frangoempanado.webp" alt="" width="250">
                     <div class="card-body">
                         <h5 class="card-title">FRANGO EMPANADO</h5>
                         <p class="card-text">Receita especial de frango empanado, queijo e vegetais <br> <br> </p>
