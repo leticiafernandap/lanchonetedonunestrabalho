@@ -62,7 +62,7 @@
 
 
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="285">
                     <div class="card-body">
                         <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
                         <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
