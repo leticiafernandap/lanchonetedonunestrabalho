@@ -9,22 +9,23 @@
     <link rel="stylesheet" href="meucodigo.css">
     <title>Página1</title>
     <style>
-         a {
-    text-decoration: none;
-  }
-    .meu-botao {
-    background-color: yellow;
-    color: green;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-  }
+        a {
+            text-decoration: none;
+        }
 
-  /* Estilize o botão quando o mouse passar por cima */
-  .meu-botao:hover {
-    background-color: green;
-    color: yellow;
-  }
+        .meu-botao {
+            background-color: yellow;
+            color: green;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        /* Estilize o botão quando o mouse passar por cima */
+        .meu-botao:hover {
+            background-color: green;
+            color: yellow;
+        }
     </style>
 </head>
 
@@ -62,7 +63,7 @@
 
 
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="285">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
                     <div class="card-body">
                         <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
                         <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
