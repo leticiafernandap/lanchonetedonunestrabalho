@@ -8,6 +8,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
     <title>Página1</title>
+    <style>
+        .card {
+            width: 380px;
+            height: 320px;
+            background-color: #f2f2f2;
+            transition: transform 0.3s ease;
+        }
+
+        /* Aumente o tamanho do card quando o mouse passar por cima */
+        .card:hover {
+            transform: scale(1.2);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .meu-botao {
+            background-color: yellow;
+            color: green;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        /* Estilize o botão quando o mouse passar por cima */
+        .meu-botao:hover {
+            background-color: green;
+            color: yellow;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,11 +75,11 @@
 
 
                 <div class="card" style="width: 18rem;">
-                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="285">
+                    <img src="sub/Carne-Defumada-Cream-Cheese_Frontal.webp" alt="" width="250">
                     <div class="card-body">
                         <h5 class="card-title">FRANGO DEFUMADO COM CREAM CHEESE</h5>
                         <p class="card-text">Cubos de frango defumado com cream cheese e vegetais <br> </p>
-                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="meu-botao">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +90,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CARNE SUPREME</h5>
                         <p class="card-text">Suculentas tiras de carne, molho supreme, cebola crispy, queijo e vegetais</p>
-                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="meu-botao">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +101,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CARNE SECA COM CREAM CHEESE</h5>
                         <p class="card-text">Carne Seca com Cream Cheese, muçarela ralada e vegetais</p>
-                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="meu-botao">COMPRAR</a>
                     </div>
                 </div>
             </div>
@@ -81,7 +112,7 @@
                     <div class="card-body">
                         <h5 class="card-title">SUB DA QUEBRADA</h5>
                         <p class="card-text">Steak de churrasco, queijo cheddar fatiado, bacon, pepperoni, alface e maionese temperada</p>
-                        <a href="pedido.php" class="btn btn-success">COMPRAR</a>
+                        <a href="pedido.php" class="meu-botao">COMPRAR</a>
                     </div>
                 </div>
             </div>
