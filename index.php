@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="meucodigo.css">
     <title>Página1</title>
     <style>
+        .card {
+            width: 380px;
+            height: 320px;
+            background-color: #f2f2f2;
+            transition: transform 0.3s ease;
+        }
+
+        /* Aumente o tamanho do card quando o mouse passar por cima */
+        .card:hover {
+            transform: scale(1.2);
+        }
+
         a {
             text-decoration: none;
         }

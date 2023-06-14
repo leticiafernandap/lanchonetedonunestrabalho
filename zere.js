@@ -9,7 +9,7 @@ function formatarCPF() {
 function formatarCEP() {
     var input = document.getElementById("cepInput");
     var cep = input.value.replace(/\D/g, ""); // Remove todos os caracteres não numéricos
-    cep = cep.replace(/(\d{5})(\d)/, "$1-$2"); // Insere um ponto após os primeiros 3 dígitos
+    cep = cep.replace(/(\d{5})(\d)/, "$1-$2"); // Insere um traço após os primeiros 5 dígitos
     input.value = cep;
   }
   function validarEmail() {
