@@ -14,6 +14,7 @@
             height: 320px;
             background-color: #f2f2f2;
             transition: transform 0.3s ease;
+            margin-top: 20px;
         }
 
         /* Aumente o tamanho do card quando o mouse passar por cima */
